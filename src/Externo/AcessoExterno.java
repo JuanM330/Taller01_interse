@@ -1,12 +1,13 @@
-
 package Externo;
+
 import Modelo.Mascota;
-     
+
 /**
  *
  * @author Juan
  */
 public class AcessoExterno {
+
     public static void main(String[] args) {
         Mascota m = new Mascota();
 

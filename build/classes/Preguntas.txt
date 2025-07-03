@@ -1,0 +1,8 @@
+
+
+//1.Si se envía una clase que no hereda de Mascota, el código no compilará, porque el método está definido para aceptar únicamente objetos de tipo Mascota o de sus subclases. 
+//2.si se elimina el uso de instanceof y se realiza un cast directo, el código puede compilar correctamente, pero si el objeto no es realmente del tipo al que se está intentando convertir
+//3. son los modificadores public y protected
+//4.public, protected y default que no tiene modificadores
+//5. como lo decia ayer en clase  Perderías encapsulamiento, que es uno de los principios fundamentales de la programación orientada a objetos.,Cualquier clase, desde cualquier parte del proyecto, podría acceder, modificar o dañar directamente los datos.,La clase quedaría más vulnerable a errores y sería difícil de mantener y controlar.
+//usar public en todos los atributos es una mala práctica.
